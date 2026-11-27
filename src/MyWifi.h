@@ -3,6 +3,9 @@
 
 class MyWifi {
 public:
-  void connect(const char* ssid, const char* password);
+  void connect();
   bool isConnected();
+
+private:
+    const KnownNetwork *findBestNetwork();
 };
