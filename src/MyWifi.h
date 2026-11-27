@@ -3,6 +3,6 @@
 
 class MyWifi {
 public:
-  void verbind(const char* ssid, const char* wachtwoord);
-  bool isVerbonden();
+  void connect(const char* ssid, const char* password);
+  bool isConnected();
 };
